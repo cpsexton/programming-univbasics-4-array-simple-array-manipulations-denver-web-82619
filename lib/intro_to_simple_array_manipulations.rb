@@ -1,1 +1,1 @@
-array.push(next_color)
+colors_of_the_rainbow.push("violet")
