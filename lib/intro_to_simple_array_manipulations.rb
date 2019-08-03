@@ -1,3 +1,4 @@
 colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-colors_in_the_rainbow << "violet"
+next_color = "violet"
+colors_in_the_rainbow.push(next_color)
 colors_in_the_rainbow
