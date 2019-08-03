@@ -43,7 +43,8 @@ list_of_programming_languages.insert(4, another_language)
 end
 
 def using_uniq(array)
-  
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  haircuts.uniq('bob')
 end
 
 def using_flatten(array)
