@@ -1,1 +1,1 @@
-colors_of_the_rainbow.push(next_color)
+array.push(next_color)
