@@ -9,3 +9,12 @@ bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
 new_neighborhood = "Staten Island"
 bouroughs_in_nyc.unshift(new_neighborhood)
 end
+
+def using_pop(array)
+  
+end
+
+def pop_with_args(array)
+
+end
+
