@@ -33,8 +33,7 @@ end
 def using_concat(my_favorite_things, more_favs)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["sports cars", "flatiron school"]
-  my_favorite_things.concat(more_favs)
-  my_favorite_things
+  my_favorite_things = my_favorite_things.concat(more_favs)
 end
 
 def using_insert(list_of_programming_languages, another_language)
@@ -56,7 +55,7 @@ end
 def using_delete(instructors, steven)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   steven = "Steven"
-  instructors.delete(steven)
+  instructors = instructors.delete(steven)
 end
 
 def using_delete_at(famous_robots, integer)
