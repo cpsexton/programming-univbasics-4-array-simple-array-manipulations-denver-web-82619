@@ -55,7 +55,7 @@ end
 def using_delete(instructors, unwanted)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   unwanted = "Steven"
-  instructors.delete(unwanted)
+  instructors.delete("Steven")
 end
 
 def using_delete_at(array, integer)
